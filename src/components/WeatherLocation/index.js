@@ -58,7 +58,6 @@ componentDidUpdate(prevProps, prevState) {
                     {data ? 
                     <WeatherData data={data}></WeatherData> :
                     <CircularProgress size={50}></CircularProgress>}
-                    <button onClick={this.handleUptadeClick}>Actualizar</button>
 
             </div>
         )
